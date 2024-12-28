@@ -1,0 +1,13 @@
+prefix=/Users/jiangyonglin/Desktop/Machine Learning/Udemy Course/bulldozer-price-prediction-project/env
+exec_prefix=/Users/jiangyonglin/Desktop/Machine Learning/Udemy Course/bulldozer-price-prediction-project/env
+libdir=/Users/jiangyonglin/Desktop/Machine Learning/Udemy Course/bulldozer-price-prediction-project/env/lib
+sharedlibdir=/Users/jiangyonglin/Desktop/Machine Learning/Udemy Course/bulldozer-price-prediction-project/env/lib
+includedir=/Users/jiangyonglin/Desktop/Machine Learning/Udemy Course/bulldozer-price-prediction-project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
