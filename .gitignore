@@ -1,3 +1,6 @@
 .DS_Store
 data/*.7z
 data/*.zip
+*.csv
+env/
+*.dylib
